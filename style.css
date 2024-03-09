@@ -1,0 +1,37 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.circle-display {
+    height: 250px;
+    width: 250px;
+    background: red;
+    border-radius: 100%;
+}
+
+.color-manipulator {
+    display: flex;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+    place-items: center;
+    margin: 10px;
+}
+
+.variant-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+}

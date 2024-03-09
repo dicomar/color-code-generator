@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <div class="color-display" id="colorDisplay">
+            <div class="circle-display" id="circleDisplay"></div>
+        </div>
+        <div class="color-manipulator" id="colorManipulator">
+            <div class="container">
+                <div class="color-name">RED</div>
+                <div class="color-name">GREEN</div>
+                <div class="color-name">BLUE</div>
+            </div>
+            <div class="container">
+                <div class="slider"><input type="range" id="redRange" class="color-range" min="0" max="255"></div>
+                <div class="slider"><input type="range" id="greenRange" class="color-range" min="0" max="255"></div>
+                <div class="slider"><input type="range" id="blueRange" class="color-range" min="0" max="255"></div>
+            </div>
+            <div class="container">
+                <div class="rgb-color-code" id="rgbRedCode"></div>
+                <div class="rgb-color-code" id="rgbGreenCode"></div>
+                <div class="rgb-color-code" id="rgbBlueCode"></div>
+            </div>
+            <div class="container">
+                <div class="hex-color-code" id="hexRedCode"></div>
+                <div class="hex-color-code" id="hexGreenCode"></div>
+                <div class="hex-color-code" id="hexBlueCode"></div>
+            </div>
+            <div class="container">
+                <div class="variant-color" id="redVariant"></div>
+                <div class="variant-color" id="greenVariant"></div>
+                <div class="variant-color" id="blueVariant"></div>
+            </div>
+        </div>
+        <div class="code-view" id="codView">
+            <div class="rgb-code-view" id="rgbCodeView">
 
+            </div>
+            <div class="hex-code-view" id="hexCodeView">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
